@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitFavorites.Api", "GitFavorites.Api\GitFavorites.Api.csproj", "{4AD36768-AE44-4794-A5EB-0ED9D7DF1D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitFavorites.Tests", "GitFavorites.Tests\GitFavorites.Tests.csproj", "{0E706FEF-21F5-4100-87A4-05AE01478704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AD36768-AE44-4794-A5EB-0ED9D7DF1D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD36768-AE44-4794-A5EB-0ED9D7DF1D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD36768-AE44-4794-A5EB-0ED9D7DF1D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD36768-AE44-4794-A5EB-0ED9D7DF1D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E706FEF-21F5-4100-87A4-05AE01478704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E706FEF-21F5-4100-87A4-05AE01478704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E706FEF-21F5-4100-87A4-05AE01478704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E706FEF-21F5-4100-87A4-05AE01478704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
