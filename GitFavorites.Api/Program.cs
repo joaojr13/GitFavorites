@@ -4,7 +4,7 @@ using GitFavorites.Api.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddSingleton<IMemoryRepository, MemoryRepository>();
+builder.Services.AddSingleton<IMemoryRepository>(new MemoryRepository());
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
